@@ -1,0 +1,217 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 2px;
+	background-color:#EFEFEF;
+	color: black;
+	margin:0;
+}
+table{
+	font-family:"Source Sans Pro",sans-serif;
+	letter-spacing:2px;
+	background-color:#EFEFEF;
+	border: 2px solid black ;
+	border-collapse: separate;
+	empty-cells: show;
+	text-align: left;
+}
+th,td{
+	padding: 1px;
+	text-align: left;
+}
+.smedia {
+	margin-top: 15px;
+	padding: 0;
+	list-style: none;
+}
+
+.smedia li {
+	display: inline;
+}
+
+.nav {
+	z-index:10;
+	border-bottom: 1px solid #888;
+	position:fixed;
+	width:100%;
+	text-align: center;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #EFEFEF;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #045184;
+}
+
+.nav a:hover {
+	color: #3588CC;
+}
+
+#home {
+	width: 750px;
+	height: 430px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.home_logo {
+	width:262px;
+	display: block;
+	padding-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+	float: left;
+}
+
+.home_container_text {
+	overflow: hidden;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.home_container_text1 {
+	padding-bottom: 20px;
+}
+.home_container_text2 {
+	padding-top: 10px;
+}
+
+.home_container_text2_1 {
+	padding-bottom: 20px;
+}
+
+
+
+#sponsors {
+	padding-top: 40px;
+	width: 100%;
+}
+
+#about {
+	background-color: #1D86C8;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#home_about_text {
+	max-width:700px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#schedule {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#home_schedule_text {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#faq {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: black;
+}
+
+#home_faq_text {
+	max-width:700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reg {
+	font-size:20px;
+	line-height:50px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	height:50px;
+	width:150px;
+	background-color:#1D86C8;
+}
+
+.footer {
+	color:black;
+	height: 165px;
+	text-align:center;
+	background-color: #1D86C8;
+	margin-top:0;
+}
+
+.copyr {
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+
+.faq_q {
+	color:#095790;
+	margin-top:8px;
+}
+
+
+h1 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	letter-spacing: 10px;
+	font-size: 72px;
+	margin: 0;
+}
+
+h2 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 30px;
+	margin: 0;
+}
+
+h3 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+h4 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h5 {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 40px;
+	margin: 0px;
+}
+
+div.box {
+	font-size: 20px;
+	text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.
+@k
