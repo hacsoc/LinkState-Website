@@ -9,8 +9,7 @@ table{
 	font-family:"Source Sans Pro",sans-serif;
 	letter-spacing:2px;
 	background-color:#EFEFEF;
-	border: 2px solid black ;
-	border-collapse: separate;
+	border-style: outset; 
 	empty-cells: show;
 	text-align: left;
 }
@@ -131,6 +130,7 @@ th,td{
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: black;
+	clear: both;
 }
 
 #home_faq_text {
@@ -213,5 +213,12 @@ div.box {
     margin-right: auto;
 }
 
-.
-@k
+#speakers{
+	padding: 40px;
+}
+.speakersList li{ 
+	float: left;
+	width: 50%;
+	margin: auto;
+
+}
