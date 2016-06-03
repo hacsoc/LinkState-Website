@@ -9,8 +9,7 @@ table{
 	font-family:"Source Sans Pro",sans-serif;
 	letter-spacing:2px;
 	background-color:#EFEFEF;
-	border: 2px solid black ;
-	border-collapse: separate;
+	border-style: outset; 
 	empty-cells: show;
 	text-align: left;
 }
@@ -34,7 +33,7 @@ th,td{
 	position:fixed;
 	width:100%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 30px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -94,7 +93,11 @@ th,td{
 	padding-bottom: 20px;
 }
 
-
+.pictures{
+	height: 500px;
+	width:  500px;
+	font-size: 0;
+}
 
 #sponsors {
 	padding-top: 40px;
@@ -106,13 +109,27 @@ th,td{
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
+	height:450px;
+	width:1000px;
 }
 
+
 #home_about_text {
-	max-width:700px;
+	max-width:500px;
+	max-height:500px;
 	margin-left: auto;
 	margin-right: auto;
+	display:inline-block;
 
+}
+.home_about_picture_container{
+	display:inline-block;
+}
+.image{
+	display:none;
+	height:500px;
+	width:500px;
+	float:left;
 }
 
 #schedule {
@@ -131,6 +148,7 @@ th,td{
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: black;
+	clear: both;
 }
 
 #home_faq_text {
@@ -213,5 +231,13 @@ div.box {
     margin-right: auto;
 }
 
-.
-@k
+#speakers{
+	padding: 40px;
+}
+.speakersList li{ 
+	float: left;
+	width: 50%;
+	margin: auto;
+
+}
+

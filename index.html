@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	<link rel="shortcut icon" href="link.ico" />
+   <head> 
+   		<!-- facebook stuff --> 
+   		<meta property ="og:title" content="Hacker Society" /> 
+   		<meta property ="og:url" content="www.linkstate.com" /> <!-- this is probably wrong--> 
+   		<meta property ="og:image" content ="http://acm.case.edu/images/LinkState175px.png?1457036162" /> 
+   		<meta property ="og:description" content=" how about no " />
+   	 	<!-- twitter stuff --> 
+   	 	<meta name="twitter:title" content="Hacker Society">
+   	 	<meta name="twitter:card" content="ifno ">
+        <meta name="twitter:site" content="@cwruacm">
+        <meta name="twitter:description" content="stuf stuff stuff">
+        <meta name="twitter:image" content="http://acm.case.edu/images/LinkState175px.png?1457036162">
+	</head>
+
 		<title>Link State 2016</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="Linke State 2016 hosted at Case Western Reserve University. TBD">
@@ -11,7 +25,6 @@
 
 	<body>
 		<!-- could include a href="hacsoc website or  acm case website if need be-->
-		<a id="linkState-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 42px;display:block;z-index:10000"  target="_blank"><img src="http://acm.case.edu/images/LinkState175px.png?1457036162"  style="width:100%;" ></a>
 			<ul class="nav">
 				<li><a href="#home"><img class="img-hover" src="link.png" style="height:40px;margin-bottom:-10px;"/></a></li>
 				<li><a href="#schedule">Schedule</a></li>
@@ -29,10 +42,34 @@
 					<div class="home_container_text2_1">
 						<h2> FALL, 2016</h2>
 						<h3>Case Western Reserve University<br><a target="_blank" href="http://www.case.edu/artsci/chem/images/map_ms_labels.jpg" style="color:black;text-decoration: underline;">Havorka Attrium</a></h3>
-				</div>
+						<h4>  <a>  buy Tickets now </a> </h4> 
+					</div>
 			</div>
 		</div>
 		<div id="about">
+			<div id="picture_container">
+					<img   class='image' src="slideShow/1.JPG" height="400" Width="400" >
+					<img   class='image' src="slideShow/2.JPG" height="400" Width="400" >
+					<img   class='image' src="slideShow/3.JPG" height="400" Width="400" >
+					<img   class='image' src="slideShow/4.JPG" height="400" Width="400" >
+					<img   class='image' src="slideShow/5.JPG" height="400" Width="400" > 
+					<script type='text/javascript'>
+						var index = 0; 
+						var pictures =  document.getElementsByClassName('image');
+						slide()
+						function slide(){
+							for( i=0; i<pictures.length;i++){
+								pictures[i].style.display="none";
+							}
+							if(index>pictures.length-1){
+								index=0;
+							}
+							pictures[index].style.display="block"
+							index=index+1;
+							setTimeout(slide,2000);
+						}
+					</script>
+			</div>
 			<div id="home_about_text">
 				<h5>About Link State</h5>
 				<h3>Stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h3>
@@ -43,60 +80,95 @@
 		</div>
 		<div id="schedule">
 			<div id="home_schedule_text">
-				<table style width="100%">
+				<table  border =".2" style width="100%">
 				  <tr> 
 				  	<th>Time</th> <th>Havorka Attrium</th> <th>Millis schmitt Auditorium</th> <th>Clapp Lecture Hall </th>
 				  </tr>
 			      <tr> 
-			      	<td>9:00AM</td>  <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>9:00AM</td>  <td>HavorkaPresenter href </td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      	</tr>
 			      <tr> 
-			      	<td>10:00AM</td> <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>10:00AM</td> <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      	</tr>	
 			      <tr> 
-			      	<td>11:00AM</td> <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>11:00AM</td> <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      	</tr>	
 			      <tr> 
-			      	<td>12:00PM</td>  <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>12:00PM</td>  <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      </tr>	
 			      <tr> 
-			      	<td>1:00PM</td>  <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>1:00PM</td>  <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      </tr>	
 			      <tr> 
-			      	<td>2:00PM</td>  <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>2:00PM</td>  <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      </tr>
 			      <tr> 
-			      	<td>3:00PM</td> <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>3:00PM</td> <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      	 </tr>
 			      <tr> 
-			      	<td>4:00PM</td> <td>hello</td> <td>i like </td> <td>cake</td>
+			      	<td>4:00PM</td> <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			      	 </tr>				
 			       <tr> 
-			       	<td>5:00PM</td> <td>hello</td> <td>i like </td> <td>cake</td>
+			       	<td>5:00PM</td> <td>HavorkaPresenter</td> <td>MillisPresenter</td> <td>clappPresenter</td>
 			       	</tr>			   
 				</table>
 			</div>
 		</div>
 		<div id="Speakers">
-		  <h2> Speakers</h2>
-		  <ul class-"speakersList">
-		    <li id="Person's name">
-		    <h3>Ramon Correa</h3>
-		    <div class="affiliation">Speaker Affiliation </div>
-		    <div class='title'>Speakers topic</div>
-            <div class='bio'> </div>
-            	<p> I signed up to do this so i could make myself learn HTML and css. So far it has consisted of lots of copy paste. Conclusion I'm proficient at copy paste.
-            	</p>
-            	</div>
+		  	<h2> Speakers</h2>
+		  	<ul class="speakersList">
+		    	<li id="Cervantes ">
+		    		<h3>Miguel de Cervantes </h3>
+		    		<div class="affiliation">Somewhere in Spain </div>
+		    		<div class='title'> Don Quijote</div>
+            		<div class='bio'> </div>
+            			<p> I signed up to do this so i could make myself learn HTML and css. So far it has consisted of lots of copy paste. Conclusion I'm proficient at copy paste.</p>
+            	</li>
+            	<li id="person 2 name">
+            		<h3> Miguel  Unamuno</h3>
+            		<div class="affiliation"> Speaker Affiliation</div>
+            		<div class="title"> Speakres topic</div>
+            		<div class='bio'></div>
+            		<p> Insert Text Later </p>
+            	</li>
+            	<li id="person 3 name">
+            		<h3>  Jose Ortega y Gasset </h3>
+            		<div class="affiliation"> Speaker Affiliation</div>
+            		<div class="title"> Speakres topic</div>
+            		<div class='bio'></div>
+            		<p> Insert Text Later </p>
+            	</li>
+            	<li id="person 3 name">
+            		<h3>  Juana Ines de la Cruz </h3>
+            		<div class="affiliation"> Speaker Affiliation</div>
+            		<div class="title"> Speakres topic</div>
+            		<div class='bio'></div>
+            		<p> Insert Text Later </p>
+            	</li>
+            	<li id="person 3 name">
+            		<h3>  Pedro Calderon de la Barca </h3>
+            		<div class="affiliation"> Speaker Affiliation</div>
+            		<div class="title"> Speakres topic</div>
+            		<div class='bio'></div>
+            		<p> Insert Text Later </p>
+            	</li>
+            	<li id="person 3 name">
+            		<h3>  Isabel  Allende </h3>
+            		<div class="affiliation"> Speaker Affiliation</div>
+            		<div class="title"> Speakres topic</div>
+            		<div class='bio'></div>
+            		<p> Insert Text Later </p>
+            	</li>
+         </div>
 		<div id="faq">
 			<div id="home_faq_text">
-			<h5>Frequently Asked Questions</h5>
+				<h5>Frequently Asked Questions</h5>
 			<div class="faq_q"><h2>Who can attend?</h2></div>
-			<h4>Anyone </h4>
+				<h4>Anyone </h4>
 			<div class="faq_q"><h2>Who is presenting ?</h2></div>
-			<h4>look at the schedule it's a bunch of cool people </h4>
+				<h4>look at the schedule it's a bunch of cool people </h4>
 			<div class="faq_q"><h2>What if I can't make it </h2></div>
-			<h4>We will miss you :(. </h4>
+				<h4>We will miss you :(. </h4>
 			</div>
 		</div>
 		<div id="sponsors">
@@ -109,7 +181,7 @@
 				</div>
 			</div>
 			<div style="text-align:center; font-size:22px;">
-				<p><a style="color:#095790;" <br>Interested in sponsoring? Email <a style="color:#095790;" href="mailto:dxb448@case.edu">Dina</a>!</p>
+				<p><a style="color:#095790;" <br>Interested in sponsoring? Email <a style="color:#095790;" href="mailto:dxb448@case.edu">Someone</a>!</p>
 			</div>
 		</div>
 		<footer>
@@ -120,7 +192,7 @@
 				<ul class="smedia">
 					<li><a target="_blank" href="https://www.facebook.com/groups/hacsoc/"><img class="smlogo img-hover" height="60" width="60" src="sm-logos/facebook.png"/></a></li>
 					<li><a target="_blank" href="https://twitter.com/cwruacm"><img class="smlogo img-hover" height="60" width="60" src="sm-logos/twitter.png"/></a></li>
-					<li><a href="mailto:dxb448@case.edu"><img class="smlogo img-hover" height="60" width="60" src="sm-logos/mail.png"/></a></li>  <!-- put dina's email -->
+					<li><a href="mailto:abc123@case.edu"><img class="smlogo img-hover" height="60" width="60" src="sm-logos/mail.png"/></a></li>  <!-- put PR email -->
 				</ul>
 			</div>
 		</footer>
